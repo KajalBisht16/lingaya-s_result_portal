@@ -1,0 +1,323 @@
+*{
+
+    margin:0;
+    
+    padding:0;
+    
+    box-sizing:border-box;
+    
+    }
+    
+    body{
+    
+    background:#ffffff;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    
+    color:#222;
+    
+    }
+    
+    .page{
+    
+    width:1080px;
+    
+    margin:12px auto;
+    
+    padding:10px;
+    
+    background:#ffffff;
+    
+    }
+    
+    .header{
+    
+    text-align:center;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .logo{
+    
+    width:82px;
+    
+    display:block;
+    
+    margin:0 auto 6px;
+    
+    }
+    
+    .header h1{
+    
+    font-size:24px;
+    
+    font-weight:bold;
+    
+    color:#b45b1f;
+    
+    margin-bottom:4px;
+    
+    }
+    
+    .header h2{
+    
+    font-size:14px;
+    
+    font-weight:normal;
+    
+    margin-bottom:2px;
+    
+    }
+    
+    .header p{
+    
+    font-size:12px;
+    
+    margin-bottom:12px;
+    
+    }
+    
+    .header h3{
+    
+    font-size:18px;
+    
+    font-weight:bold;
+    
+    margin-bottom:10px;
+    
+    }
+    
+    .header h4{
+    
+    font-size:20px;
+    
+    font-weight:bold;
+    
+    margin-bottom:2px;
+    
+    }
+    
+    .header h5{
+    
+    font-size:14px;
+    
+    font-weight:bold;
+    
+    }
+
+    /* ==========================
+   STUDENT DETAILS
+========================== */
+
+.student-details{
+
+    width:100%;
+    
+    border-collapse:collapse;
+    
+    margin:18px 0 22px;
+    
+    }
+    
+    .student-details td{
+    
+    padding:6px 0;
+    
+    font-size:15px;
+    
+    vertical-align:top;
+    
+    }
+    
+    .student-details td:first-child{
+    
+    width:70%;
+    
+    }
+    
+    .student-details td:last-child{
+    
+    width:30%;
+    
+    text-align:left;
+    
+    padding-left:80px;
+    
+    }
+    
+    .student-details strong{
+    
+    font-weight:bold;
+    
+    }
+
+    /* ==========================
+      MARKS TABLE
+========================== */
+
+.marks-table{
+
+    width:100%;
+    
+    border-collapse:collapse;
+    
+    margin-top:10px;
+    
+    font-size:14px;
+    
+    }
+    
+    .marks-table th{
+    
+    background:#2e75b6;
+    
+    color:#ffffff;
+    
+    border:1px solid #8d8d8d;
+    
+    padding:7px;
+    
+    text-align:center;
+    
+    }
+    
+    .marks-table td{
+    
+    border:1px solid #8d8d8d;
+    
+    padding:7px;
+    
+    }
+    
+    .marks-table td:nth-child(1){
+    
+    width:55px;
+    
+    text-align:center;
+    
+    }
+    
+    .marks-table td:nth-child(2){
+    
+    width:140px;
+    
+    text-align:center;
+    
+    }
+    
+    .marks-table td:nth-child(3){
+    
+    width:540px;
+    
+    }
+    
+    .marks-table td:nth-child(4){
+    
+    width:80px;
+    
+    text-align:center;
+    
+    }
+    
+    .marks-table td:nth-child(5){
+    
+    width:160px;
+    
+    text-align:center;
+    
+    }
+    
+    .summary-row td{
+    
+    font-weight:bold;
+    
+    background:#fafafa;
+    
+    }
+
+    /* ==========================
+      PRINT DATE
+========================== */
+
+.print-date{
+
+    margin-top:15px;
+    
+    font-size:13px;
+    
+    }
+    
+    /* ==========================
+          ABBREVIATION
+    ========================== */
+    
+    .abbreviation{
+    
+    margin-top:12px;
+    
+    font-size:12px;
+    
+    line-height:20px;
+    
+    }
+    
+    .abbreviation p:first-child{
+    
+    margin-bottom:6px;
+    
+    }
+    
+    /* ==========================
+          DISCLAIMER
+    ========================== */
+    
+    .disclaimer{
+    
+    margin-top:15px;
+    
+    font-size:11px;
+    
+    line-height:18px;
+    
+    text-align:justify;
+    
+    }
+    
+    .disclaimer p:first-child{
+    
+    margin-bottom:6px;
+    
+    }
+    
+    /* ==========================
+          BOTTOM LINKS
+    ========================== */
+    
+    .bottom-links{
+    
+    text-align:center;
+    
+    margin-top:18px;
+    
+    font-size:12px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .bottom-links a{
+    
+    text-decoration:none;
+    
+    color:#000;
+    
+    margin:0 5px;
+    
+    }
+    
+    .bottom-links a:hover{
+    
+    text-decoration:underline;
+    
+    }

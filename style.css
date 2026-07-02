@@ -1,0 +1,616 @@
+/*==================================================
+            LINGAYA RESULT PORTAL
+                  STYLE.CSS
+==================================================*/
+
+/*--------------- RESET ----------------*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*--------------- BODY ----------------*/
+
+body{
+
+    background:#ffffff;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    color:#333333;
+}
+
+/*--------------- MAIN CONTAINER ----------------*/
+
+.main-container{
+
+    width:100%;
+
+    max-width:430px;
+
+    margin:auto;
+
+    padding:12px 18px 45px;
+
+}
+
+/*--------------- HEADER ----------------*/
+
+header{
+
+    text-align:center;
+
+}
+
+/*--------------- LOGO ----------------*/
+
+.logo{
+
+    width:90px;
+    display:block;
+    margin:auto;
+
+    margin-top:8px;
+    margin-bottom:8px;
+
+    user-select:none;
+
+}
+
+/*--------------- UNIVERSITY NAME ----------------*/
+
+header h1{
+
+    color:#f28b1d;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    margin-top:10px;
+
+    line-height:32px;
+
+}
+
+header h2{
+
+    color:#555;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    margin-top:8px;
+
+}
+
+header p{
+
+    color:#666;
+
+    font-size:15px;
+
+    margin-top:8px;
+
+    line-height:24px;
+
+}
+
+/*--------------- ONLINE RESULT ----------------*/
+
+.title-section{
+
+    text-align:center;
+
+    margin-top:42px;
+
+    margin-bottom:38px;
+
+}
+
+.title-section h3{
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:#111;
+
+}
+/*--------------- FORM ----------------*/
+
+.form-section{
+
+    width:63%;
+    margin: auto;
+
+}
+
+/*--------------- INPUTS ----------------*/
+
+.form-section input,
+.form-section select{
+
+    width:100%;
+
+    height:36px;
+
+    border:1px solid #d9d9d9;
+
+    background:#ffffff;
+
+    outline:none;
+
+    margin-bottom:10px;
+
+    padding:0 10px;
+
+    font-size:14px;
+
+    color:#555555;
+
+    border-radius:2px;
+
+    transition:0.25s;
+
+}
+
+.form-section input::placeholder{
+
+    color:#666666;
+
+}
+
+.form-section input:focus,
+.form-section select:focus{
+
+    border-color:#f28b1d;
+
+}
+
+/*--------------- SELECT ----------------*/
+
+.form-section select{
+
+    cursor:pointer;
+
+    appearance:auto;
+
+    -webkit-appearance:auto;
+
+    -moz-appearance:auto;
+
+}
+
+/*--------------- BUTTON ----------------*/
+
+.form-section button{
+
+    width:95px;
+
+    height:34px;
+
+    display:block;
+
+    margin:28px auto 45px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#f28b1d;
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.form-section button:hover{
+
+    background:#de7b15;
+
+}
+
+/*--------------- RESULT DECLARED ----------------*/
+
+.result-declared{
+
+    width:100%;
+    padding-left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.result-declared h4{
+
+    text-align:center;
+
+    color:#d68422;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    margin-bottom:28px;
+
+}
+
+.result-declared h5{
+
+    text-align:center;
+
+    font-size:21px;
+
+    color:#333333;
+
+    margin-bottom:20px;
+
+}
+
+.result-declared ol{
+
+    margin-left:22px;
+
+}
+
+.result-declared li{
+
+    font-size:12.5px;
+
+    line-height:-10px;
+
+    margin-bottom: -15px;
+
+    white-space: nowrap;
+
+    color:#444444;
+
+}
+
+/*--------------- MOBILE ----------------*/
+
+@media screen and (max-width:480px){
+
+.main-container{
+
+padding:12px 16px 35px;
+
+}
+
+.logo{
+
+width:135px;
+
+}
+
+header h1{
+
+font-size:21px;
+
+}
+
+.title-section h3{
+
+font-size:32px;
+
+}
+
+.form-section input,
+.form-section select{
+
+height:55px;
+
+font-size:17px;
+
+}
+
+.form-section button{
+
+width:135px;
+
+height:56px;
+
+font-size:20px;
+
+}
+
+.result-declared h4{
+
+font-size:22px;
+
+}
+
+.result-declared h5{
+
+font-size:19px;
+
+}
+
+.result-declared li{
+
+font-size:16px;
+
+line-height:30px;
+
+}
+
+}
+/*=========================================
+      DESKTOP LAYOUT
+==========================================*/
+
+@media screen and (min-width:991px){
+
+    .main-container{
+    
+    max-width:1350px;
+
+    width:100%;
+
+    margin:0 auto;
+    
+    display:flex;
+    
+    justify-content:space-between;
+    
+    align-items:flex-start;
+    
+    padding:35px 40px;
+    box-sizing: border-box;
+    
+    }
+    
+    /* LEFT SIDE */
+    
+    .left-panel{
+    
+    width:44%;
+    
+    }
+    
+    /* RIGHT SIDE */
+    
+    .right-panel{
+    
+    width:52%;
+    
+    padding-left:25px;
+    
+    border-left:1px solid #d8d8d8;
+    
+    }
+    
+    /* LOGO */
+    
+    .logo{
+    
+    width:90px;
+    
+    }
+    
+    /* HEADING */
+    
+    header h1{
+    
+    font-size:30px;
+    
+    }
+    
+    header h2{
+    
+    font-size:20px;
+    
+    }
+    
+    header p{
+    
+    font-size:15px;
+    
+    }
+    
+    /* TITLE */
+    
+    .title-section{
+    
+    margin-top:35px;
+    
+    margin-bottom:28px;
+    
+    }
+    
+    .title-section h3{
+    
+    font-size:34px;
+    
+    }
+    
+    /* FORM */
+    
+    .form-section input,
+    
+    .form-section select{
+    
+    height:46px;
+    
+    font-size:16px;
+    
+    margin-bottom:14px;
+    
+    }
+    
+    /* BUTTON */
+    
+    .form-section button{
+    
+    width:120px;
+    
+    height:45px;
+    
+    font-size:18px;
+    
+    margin-top:18px;
+    
+    }
+    
+    /* RESULT */
+    
+    .result-declared h4{
+    
+    text-align:left;
+    
+    font-size:22px;
+
+    color: #d68422
+    
+    }
+    
+    .result-declared h5{
+    
+    text-align:left;
+    
+    font-size:18px;
+    
+    }
+    
+    .result-declared ol{
+    
+    margin-left:18px;
+    
+    }
+    
+    .result-declared li{
+    
+    font-size:15px;
+    
+    line-height:29px;
+    
+    }
+    
+    }
+    /*=========================================
+      FINAL HOMEPAGE POLISH
+==========================================*/
+
+/* Make form a little narrower */
+.form-section{
+
+    width:65%;
+
+    margin:0 auto;
+
+}
+
+/* Input boxes */
+.form-section input,
+.form-section select{
+
+    height:38px;
+
+    font-size:15px;
+
+    border:1px solid #d7d7d7;
+
+    margin-bottom:10px;
+
+    padding-left:12px;
+
+}
+
+/* Submit Button */
+
+.form-section button{
+
+    width:95px;
+
+    height:36px;
+
+    background:#ef8d22;
+
+    font-size:15px;
+
+    border-radius:3px;
+
+    margin-top:12px;
+
+    margin-bottom:20px;
+
+}
+
+/* Result Declared */
+
+.result-declared{
+
+    padding-left:25px;
+
+}
+
+.result-declared h4{
+
+    color:#d68422;
+
+    font-size:20px;
+
+    margin-bottom:18px;
+
+}
+
+.result-declared h5{
+
+    font-size:17px;
+
+    margin-bottom:18px;
+
+}
+
+.result-declared li{
+
+    font-size:12px;
+
+    line-height:18px;
+
+    margin-bottom: 2px;
+
+}
+
+/* Divider */
+
+.right-panel{
+
+    border-left:1px solid #cfcfcf;
+
+}
+
+/* Logo */
+
+.logo{
+
+    width:90px;
+
+}
+
+/* ONLINE RESULT */
+
+.title-section{
+
+    margin-top:20px;
+
+    margin-bottom:20px;
+
+}
+
+.title-section h3{
+
+    font-size:18px;
+
+}
